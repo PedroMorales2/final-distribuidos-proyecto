@@ -49,8 +49,9 @@
     <Reference Include="capaDatos">
       <HintPath>..\capaDatos.dll</HintPath>
     </Reference>
-    <Reference Include="capaNegocio">
-      <HintPath>..\capaNegocio.dll</HintPath>
+    <Reference Include="capaNegocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\capaNegocio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -141,6 +142,8 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ticket.aspx" />
+    <Content Include="ubigeo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -149,7 +152,7 @@
     </Compile>
     <Compile Include="cines.aspx.vb">
       <DependentUpon>cines.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="combo.aspx.designer.vb">
       <DependentUpon>combo.aspx</DependentUpon>
@@ -252,6 +255,20 @@
     </Compile>
     <Compile Include="registro.aspx.vb">
       <DependentUpon>registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ticket.aspx.designer.vb">
+      <DependentUpon>ticket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ticket.aspx.vb">
+      <DependentUpon>ticket.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ubigeo.aspx.designer.vb">
+      <DependentUpon>ubigeo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ubigeo.aspx.vb">
+      <DependentUpon>ubigeo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
