@@ -186,6 +186,18 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="cines.aspx">
+                        <i class="bi bi-easel nav-icon me-2"></i>
+                        <span class="nav-link-text">Cines</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="entradas.aspx">
+                        <i class="bi bi-ticket-perforated nav-icon me-2"></i>
+                        <span class="nav-link-text">Salas</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="entradas.aspx">
                         <i class="bi bi-ticket-perforated nav-icon me-2"></i>
                         <span class="nav-link-text">Entradas</span>

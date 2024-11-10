@@ -139,6 +139,17 @@
     <!-- Sección de tarjetas de mantenimiento -->
     <div class="container maintenance-section">
         <div class="row">
+             <!-- Tarjeta de Mantenimiento de Cine -->
+             <div class="col-md-4 mb-4">
+                 <div class="card maintenance-card h-100">
+                     <div class="card-body text-center">
+                         <i class="bi bi-file-earmark-text"></i>
+                         <h5 class="card-title mt-2">Gestión de Cines</h5>
+                         <p class="card-text">Administra los cines.</p>
+                         <a href="cines.aspx" class="btn btn-primary">Ir a Cines</a>
+                     </div>
+                 </div>
+             </div>
             <!-- Tarjeta de Mantenimiento de Formatos -->
             <div class="col-md-4 mb-4">
                 <div class="card maintenance-card h-100">
