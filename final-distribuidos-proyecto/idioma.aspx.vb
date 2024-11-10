@@ -25,10 +25,10 @@ Public Class idioma
         Dim vigencia As Boolean = chkVigencia.Checked
 
         If lblTitulo.Text = "Agregar Formato" Then
-            formatoNegocio.(nombre_formato, vigencia)
+            formatoNegocio.RegistrarIdioma(nombre_formato, vigencia)
         Else
             Dim id_formato As Integer = ViewState("id_formato")
-            formatoNegocio.RegistrarIdioma(id_formato, nombre_formato, vigencia)
+            formatoNegocio.RegistrarIdioma(id_formato, nombre_formato)
         End If
 
         CargarDatos()
