@@ -116,8 +116,6 @@ D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bi
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\roslyn\vbc.rsp
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\roslyn\VBCSCompiler.exe
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\roslyn\VBCSCompiler.exe.config
-D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaDatos.dll
-D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaNegocio.dll
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\System.Data.SqlClient.dll
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\System.Data.SqlClient.xml
@@ -132,3 +130,11 @@ D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\ob
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.pdb
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaDatos.dll
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaNegocio.dll
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.dll
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.dll
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.pdb
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.xml
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.dll.config
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.pdb
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.xml
+D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.dll.config

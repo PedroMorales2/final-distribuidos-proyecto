@@ -53,8 +53,11 @@
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="Acciones" ItemStyle-Width="200px">
                                 <ItemTemplate>
-                                    <asp:LinkButton ID="btnEdit" runat="server" CommandName="Edit" CssClass="btn btn-warning btn-sm">Editar</asp:LinkButton>
-                                    <asp:LinkButton ID="btnDelete" runat="server" CommandName="Eliminar" CommandArgument='<%# Eval("id_ticket") %>' CssClass="btn btn-danger btn-sm" OnClientClick="return confirmDelete();">Eliminar</asp:LinkButton>
+                                                   
+                <asp:LinkButton ID="btnDelete" runat="server" CommandName="Eliminar" CommandArgument='<%# Eval("id_ticket") %>' CssClass="btn btn-danger btn-sm" Style="width: 70px;"
+                    OnClientClick="return confirmDelete();">
+<i class="bi bi-trash"></i> Eliminar
+                </asp:LinkButton>
                                 </ItemTemplate>
                                 <EditItemTemplate>
                                     <asp:LinkButton ID="btnUpdate" runat="server" CommandName="Update" CssClass="btn btn-success btn-sm">Guardar</asp:LinkButton>
