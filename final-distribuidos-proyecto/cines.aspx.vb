@@ -1,10 +1,12 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
 Imports capaNegocio
+Imports negocio
 
 Public Class cines
     Inherits System.Web.UI.Page
 
+    Dim clas As New clsS()
     Dim ubigeo As New clsUbigeo()
     Dim cine As New clsCine()
 
@@ -189,7 +191,42 @@ Public Class cines
     End Sub
 
     Private Sub CargarDatosCine(idCine As Integer)
+        ' Obtén los datos del cine según el ID
+        Dim dt As DataTable = clas.ObtenerCinePorID(idCine)
 
+        If dt.Rows.Count > 0 Then
+            Dim row As DataRow = dt.Rows(0)
+
+            ' Carga los datos en los controles del panelEditar
+            txtNombreCine.Text = row("nombre").ToString()
+            txtCantSalas.Text = row("cant_salas").ToString()
+            txtDireccion.Text = row("direccion").ToString()
+
+            ' Carga la imagen si existe
+            Dim enlaceImagen As String = row("enlace_imagen").ToString()
+            If Not String.IsNullOrEmpty(enlaceImagen) Then
+                imgPreview.ImageUrl = "~/" & enlaceImagen
+                imgPreview.Visible = True
+            Else
+                imgPreview.Visible = False
+            End If
+
+            ' Carga los valores de Departamento, Provincia y Distrito
+            Dim departamento As String = row("departamento").ToString()
+            Dim provincia As String = row("provincia").ToString()
+            Dim distrito As String = row("distrito").ToString()
+
+            ' Selecciona el valor del departamento y carga las provincias
+            ddlDepartamento.SelectedValue = departamento
+            CargarProvincias(departamento)
+
+            ' Selecciona el valor de la provincia y carga los distritos
+            ddlProvincia.SelectedValue = provincia
+            CargarDistritos(provincia)
+
+            ' Selecciona el valor del distrito
+            ddlDistrito.SelectedValue = distrito
+        End If
     End Sub
 
 

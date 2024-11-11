@@ -1,110 +1,134 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/maestra-empresa.Master" CodeBehind="comprobante.aspx.vb" Inherits="final_distribuidos_proyecto.comprobante" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
-    Comprobante
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <form runat="server">
+        <div class="container mt-4">
+            <h2 class="text-center mb-4">Gestión de Comprobantes</h2>
+            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Nuevo Comprobante" CssClass="btn btn-primary mt-3" OnClick="btnNuevo_Click" />
 
-    <div class="container my-2">
-    <h2 class="text-center text-primary mb-4">Comprobante</h2>
-
-    <div class="row">
-        <!-- Panel izquierdo con formulario de comprobante -->
-        <div class="col-md-3">
-            <div class="card p-3 mb-4">
-                <h5>Datos del Comprobante</h5>
-                <div class="mb-3">
-                    <label for="formaPago" class="form-label">Forma de Pago</label>
-                    <select id="formaPago" class="form-select">
-                        <option value="Efectivo">Efectivo</option>
-                        <option value="Tarjeta">Tarjeta</option>
-                        <option value="Transferencia">Transferencia</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="venta" class="form-label">Venta</label>
-                    <input type="text" class="form-control" id="venta">
-                </div>
-                <div class="mb-3">
-                    <label for="ticket" class="form-label">Ticket</label>
-                    <input type="text" class="form-control" id="ticket">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Impuesto</label>
-                    <p>-------</p>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Sub-total</label>
-                    <p>-------</p>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Total</label>
-                    <p>-------</p>
-                </div>
-                <div class="d-flex flex-column">
-                    <button class="btn btn-primary mb-2">Nuevo</button>
-                    <button class="btn btn-secondary mb-2">Modificar</button>
-                    <button class="btn btn-light border">Limpiar</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sección principal para el detalle de compras -->
-        <div class="col-md-9">
-            <div class="card p-3 mb-4">
-                <h5>Detalle del Comprobante</h5>
-                <!-- Tabla de detalle de las compras -->
-                <div class="table-responsive">
-                    <table class="table table-bordered table-hover">
-                        <thead class="table-primary text-center">
-                            <tr>
-                                <th>Producto</th>
-                                <th>Cantidad</th>
-                                <th>Precio Unitario</th>
-                                <th>Precio Total</th>
-                                <th>Acciones</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Ejemplo de fila de compra -->
-                            <tr>
-                                <td>Producto A</td>
-                                <td>2</td>
-                                <td>10.00</td>
-                                <td>20.00</td>
-                                <td class="text-center">
-                                    <a href="#" class="text-warning me-2" title="Modificar">
-                                        <i class="bi bi-pencil-square"></i>
-                                    </a>
-                                    <a href="#" class="text-danger" title="Eliminar">
-                                        <i class="bi bi-trash-fill"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <!-- Agregar más filas según los productos en el comprobante -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- Sección de opciones adicionales -->
             <div class="row">
-                <div class="col-md-6">
-                    <div class="card p-3 mb-4">
-                        <h5>Productos Disponibles</h5>
-                        <p>Lista de productos para agregar al comprobante.</p>
-                        <button class="btn btn-primary w-100">Agregar Producto</button>
-                    </div>
+                <div class="col-md-8">
+                    <asp:GridView ID="grvComprobante" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-hover"
+                        DataKeyNames="id_comprobante" OnRowEditing="grvComprobante_RowEditing" OnRowUpdating="grvComprobante_RowUpdating"
+                        OnRowCancelingEdit="grvComprobante_RowCancelingEdit" OnRowCommand="grvComprobante_RowCommand" OnSelectedIndexChanged="grvComprobante_SelectedIndexChanged">
+                        <Columns>
+                            <asp:TemplateField HeaderText="ID Comprobante" ItemStyle-Width="50px">
+                                <ItemTemplate><%# Eval("id_comprobante") %></ItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Total" ItemStyle-Width="150px">
+                                <ItemTemplate><span style="font-size: 14px;"><%# Eval("total") %></span></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtTotal" runat="server" Text='<%# Bind("total") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Impuesto" ItemStyle-Width="150px">
+                                <ItemTemplate><span style="font-size: 14px;"><%# Eval("impuesto") %></span></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtImpuesto" runat="server" Text='<%# Bind("impuesto") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Subtotal" ItemStyle-Width="150px">
+                                <ItemTemplate><span style="font-size: 14px;"><%# Eval("subtotal") %></span></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtSubtotal" runat="server" Text='<%# Bind("subtotal") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Fecha Emisión" ItemStyle-Width="200px">
+                                <ItemTemplate><span style="font-size: 14px;"><%# Eval("fecha_emision", "{0:yyyy-MM-dd}") %></span></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtFechaEmision" runat="server" Text='<%# Bind("fecha_emision") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="ID Ticket" ItemStyle-Width="150px">
+                                <ItemTemplate><%# Eval("id_ticket") %></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtIdTicket" runat="server" Text='<%# Bind("id_ticket") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="ID Venta" ItemStyle-Width="150px">
+                                <ItemTemplate><%# Eval("id_venta") %></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtIdVenta" runat="server" Text='<%# Bind("id_venta") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="ID Forma Pago" ItemStyle-Width="150px">
+                                <ItemTemplate><%# Eval("id_forma") %></ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:TextBox ID="txtIdForma" runat="server" Text='<%# Bind("id_forma") %>' CssClass="form-control" />
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Acciones" ItemStyle-Width="200px">
+                                <ItemTemplate>
+                               <asp:LinkButton ID="btnVer" runat="server" CommandName="Ver" CssClass="btn btn-info btn-sm" Style="width: 70px;">
+    <i class="bi bi-eye"></i> Ver
+</asp:LinkButton>
+                                                  
+                <asp:LinkButton ID="btnDelete" runat="server" CommandName="Eliminar" CommandArgument='<%# Eval("id_comprobante") %>' CssClass="btn btn-danger btn-sm" Style="width: 70px;"
+                    OnClientClick="return confirmDelete();">
+<i class="bi bi-trash"></i> Eliminar
+                </asp:LinkButton>
+                                </ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:LinkButton ID="btnUpdate" runat="server" CommandName="Update" CssClass="btn btn-success btn-sm">Guardar</asp:LinkButton>
+                                    <asp:LinkButton ID="btnCancel" runat="server" CommandName="Cancel" CssClass="btn btn-secondary btn-sm">Cancelar</asp:LinkButton>
+                                </EditItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
+                    </asp:GridView>
                 </div>
-                <div class="col-md-6">
-                    <div class="card p-3 mb-4">
-                        <h5>Resumen del Comprobante</h5>
-                        <p>Detalles adicionales sobre el comprobante actual.</p>
-                    </div>
+
+                <div class="col-md-4">
+                    <asp:Panel ID="panelEditar" runat="server" Visible="False" CssClass="card p-3 shadow-sm">
+                        <h3 class="card-title"><asp:Label ID="lblTitulo" runat="server" Text="Agregar/Editar Comprobante"></asp:Label></h3>
+
+                        <div class="form-group">
+                            <asp:Label ID="lblTotal" runat="server" Text="Total:" CssClass="form-label" />
+                            <asp:TextBox ID="txtTotalPanel" runat="server" CssClass="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <asp:Label ID="lblImpuesto" runat="server" Text="Impuesto:" CssClass="form-label" />
+                            <asp:TextBox ID="txtImpuestoPanel" runat="server" CssClass="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <asp:Label ID="lblSubtotal" runat="server" Text="Subtotal:" CssClass="form-label" />
+                            <asp:TextBox ID="txtSubtotalPanel" runat="server" CssClass="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <asp:Label ID="lblFechaEmision" runat="server" Text="Fecha Emisión:" CssClass="form-label" />
+                            <asp:TextBox ID="txtFechaEmisionPanel" runat="server" CssClass="form-control" />
+                        </div>
+                        <div class="form-group">
+                           <asp:Label ID="lblIdTicket" runat="server" Text="ID Ticket:" CssClass="form-label" />
+<asp:DropDownList ID="ddlIdTicket" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="ddlIdTicket_SelectedIndexChanged" />
+
+                        </div>
+                        <div class="form-group">
+                            <asp:Label ID="lblIdVenta" runat="server" Text="ID Venta:" CssClass="form-label" />
+<asp:DropDownList ID="ddlIdVenta" runat="server" CssClass="form-control" AutoPostBack="True" OnSelectedIndexChanged="ddlIdVenta_SelectedIndexChanged" />
+
+                        </div>
+                        <div class="form-group">
+                          <asp:Label ID="lblIdForma" runat="server" Text="Forma de Pago:" CssClass="form-label" />
+<asp:DropDownList ID="ddlIdForma" runat="server" CssClass="form-control" />
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="btn btn-success" OnClick="btnGuardar_Click" />
+                            <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" CssClass="btn btn-secondary" OnClick="btnCancelar_Click" />
+                        </div>
+                    </asp:Panel>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </form>
+
+    <script type="text/javascript">
+        function confirmDelete() {
+            return confirm("¿Estás seguro de que deseas eliminar este comprobante?");
+        }
+    </script>
 </asp:Content>

@@ -350,6 +350,16 @@
     <Folder Include="js\" />
     <Folder Include="Styles\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dato\dato.vbproj">
+      <Project>{461e924e-3d3b-40c8-95ac-96cb2215a68b}</Project>
+      <Name>dato</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\negocio\negocio.vbproj">
+      <Project>{621adcc1-41fd-4f6b-ae2c-427706577e67}</Project>
+      <Name>negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
