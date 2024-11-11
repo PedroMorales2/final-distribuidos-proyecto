@@ -247,6 +247,15 @@
                         <span class="nav-link-text">Pelicula</span>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="FuncionesProgramadas.aspx">
+                        <i class="bi bi-credit-card nav-icon me-2"></i>
+                        <span class="nav-link-text">Funciones programadas</span>
+                    </a>
+                </li>
+
+
                 <!-- Dropdown Menu -->
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="false" aria-controls="submenu">

@@ -46,12 +46,13 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="capaDatos">
-      <HintPath>..\capaDatos.dll</HintPath>
+    <Reference Include="capaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Nueva carpeta (3)\capaDatos.dll</HintPath>
     </Reference>
     <Reference Include="capaNegocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\capaNegocio.dll</HintPath>
+      <HintPath>..\..\Nueva carpeta (3)\capaNegocio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -132,8 +133,11 @@
     <Content Include="entradas.aspx" />
     <Content Include="formaPago.aspx" />
     <Content Include="formatoPedro.aspx" />
+    <Content Include="formatoPelicula.aspx" />
+    <Content Include="FuncionesProgramadas.aspx" />
     <Content Include="idioma.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="pelicula.aspx" />
     <Content Include="principal.aspx" />
     <Content Include="registro.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -203,6 +207,20 @@
       <DependentUpon>formatoPedro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="formatoPelicula.aspx.designer.vb">
+      <DependentUpon>formatoPelicula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formatoPelicula.aspx.vb">
+      <DependentUpon>formatoPelicula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FuncionesProgramadas.aspx.designer.vb">
+      <DependentUpon>FuncionesProgramadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FuncionesProgramadas.aspx.vb">
+      <DependentUpon>FuncionesProgramadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="idioma.aspx.designer.vb">
       <DependentUpon>idioma.aspx</DependentUpon>
     </Compile>
@@ -242,6 +260,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pelicula.aspx.designer.vb">
+      <DependentUpon>pelicula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pelicula.aspx.vb">
+      <DependentUpon>pelicula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="principal.aspx.designer.vb">
       <DependentUpon>principal.aspx</DependentUpon>
