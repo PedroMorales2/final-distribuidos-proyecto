@@ -138,3 +138,13 @@ D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bi
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.pdb
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.xml
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.dll.config
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\Newtonsoft.Json.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.pdb
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.xml
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\dato.dll.config
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.pdb
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.xml
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\negocio.dll.config
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\Newtonsoft.Json.xml
