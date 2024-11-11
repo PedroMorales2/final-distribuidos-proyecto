@@ -271,6 +271,30 @@
                         </ul>
                     </div>
                 </li>
+
+                 <li class="nav-item">
+     <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="false" aria-controls="submenu">
+         <i class="bi bi-boxes nav-icon me-2"></i>
+         <span class="nav-link-text">Extra</span>
+         <i class="bi bi-chevron-down ms-auto"></i>
+     </a>
+     <div class="collapse" id="submenu">
+         <ul class="nav flex-column ms-3">
+             <li class="nav-item">
+                 <a class="nav-link d-flex align-items-center" href="ubigeo.aspx">
+                     <i class="bi bi-box-seam nav-icon me-2"></i>
+                     <span>Ubigeo</span>
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link d-flex align-items-center" href="tipo_usuario.aspx">
+                     <i class="bi bi-cup-straw nav-icon me-2"></i>
+                     <span>Tipo usuario</span>
+                 </a>
+             </li>
+         </ul>
+     </div>
+ </li>
             </ul>
         </nav>
 

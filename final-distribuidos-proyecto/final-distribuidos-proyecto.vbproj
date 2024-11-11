@@ -47,10 +47,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="capaDatos">
-      <HintPath>..\..\Nueva carpeta (3)\capaDatos.dll</HintPath>
+      <HintPath>..\capaDatos.dll</HintPath>
     </Reference>
-    <Reference Include="capaNegocio">
-      <HintPath>..\..\Nueva carpeta (3)\capaNegocio.dll</HintPath>
+    <Reference Include="capaNegocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\capaNegocio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -131,11 +132,8 @@
     <Content Include="entradas.aspx" />
     <Content Include="formaPago.aspx" />
     <Content Include="formatoPedro.aspx" />
-    <Content Include="formatoPelicula.aspx" />
-    <Content Include="FuncionesProgramadas.aspx" />
     <Content Include="idioma.aspx" />
     <Content Include="login.aspx" />
-    <Content Include="pelicula.aspx" />
     <Content Include="principal.aspx" />
     <Content Include="registro.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -144,6 +142,8 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ticket.aspx" />
+    <Content Include="ubigeo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -152,7 +152,7 @@
     </Compile>
     <Compile Include="cines.aspx.vb">
       <DependentUpon>cines.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="combo.aspx.designer.vb">
       <DependentUpon>combo.aspx</DependentUpon>
@@ -203,20 +203,6 @@
       <DependentUpon>formatoPedro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="formatoPelicula.aspx.designer.vb">
-      <DependentUpon>formatoPelicula.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="formatoPelicula.aspx.vb">
-      <DependentUpon>formatoPelicula.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="FuncionesProgramadas.aspx.designer.vb">
-      <DependentUpon>FuncionesProgramadas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FuncionesProgramadas.aspx.vb">
-      <DependentUpon>FuncionesProgramadas.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="idioma.aspx.designer.vb">
       <DependentUpon>idioma.aspx</DependentUpon>
     </Compile>
@@ -257,13 +243,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="pelicula.aspx.designer.vb">
-      <DependentUpon>pelicula.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pelicula.aspx.vb">
-      <DependentUpon>pelicula.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="principal.aspx.designer.vb">
       <DependentUpon>principal.aspx</DependentUpon>
     </Compile>
@@ -276,6 +255,20 @@
     </Compile>
     <Compile Include="registro.aspx.vb">
       <DependentUpon>registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ticket.aspx.designer.vb">
+      <DependentUpon>ticket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ticket.aspx.vb">
+      <DependentUpon>ticket.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ubigeo.aspx.designer.vb">
+      <DependentUpon>ubigeo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ubigeo.aspx.vb">
+      <DependentUpon>ubigeo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
@@ -329,7 +322,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="image_pelicula\" />
     <Folder Include="js\" />
     <Folder Include="Styles\" />
   </ItemGroup>

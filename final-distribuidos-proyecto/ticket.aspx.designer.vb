@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class cines
+Partial Public Class ticket
 
     '''<summary>
     '''Control ScriptManager1.
@@ -23,24 +23,6 @@ Partial Public Class cines
     Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
 
     '''<summary>
-    '''Control alertContainer.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents alertContainer As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''Control alertMessage.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents alertMessage As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
     '''Control btnAgregar.
     '''</summary>
     '''<remarks>
@@ -50,13 +32,13 @@ Partial Public Class cines
     Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control gvCines.
+    '''Control grvTickets.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents gvCines As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents grvTickets As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''Control panelEditar.
@@ -77,166 +59,94 @@ Partial Public Class cines
     Protected WithEvents lblTitulo As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control lblNombreCine.
+    '''Control lblPrecio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblNombreCine As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblPrecio As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control txtNombreCine.
+    '''Control txtPrecioPanel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtNombreCine As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtPrecioPanel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblCantSalas.
+    '''Control lblCantidad.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblCantSalas As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblCantidad As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control txtCantSalas.
+    '''Control txtCantidadPanel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtCantSalas As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtCantidadPanel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblDireccion.
+    '''Control lblDescuento.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblDireccion As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblDescuento As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control txtDireccion.
+    '''Control txtDescuentoPanel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtDireccion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtDescuentoPanel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblImagen.
+    '''Control lblSubtotal.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblImagen As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblSubtotal As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control fuImagen.
+    '''Control txtSubtotalPanel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents fuImagen As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents txtSubtotalPanel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control imgPreview.
+    '''Control lblIdUsuario.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents imgPreview As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents lblIdUsuario As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control lblDepartamento.
+    '''Control txtIdUsuarioPanel.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblDepartamento As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control upDepartamento.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents upDepartamento As Global.System.Web.UI.UpdatePanel
-
-    '''<summary>
-    '''Control ddlDepartamento.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ddlDepartamento As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control lblProvincia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblProvincia As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control upProvincia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents upProvincia As Global.System.Web.UI.UpdatePanel
-
-    '''<summary>
-    '''Control ddlProvincia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ddlProvincia As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control lblDistrito.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblDistrito As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control upDistrito.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents upDistrito As Global.System.Web.UI.UpdatePanel
-
-    '''<summary>
-    '''Control ddlDistrito.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ddlDistrito As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtIdUsuarioPanel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control btnGuardar.
