@@ -11,95 +11,104 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class idioma
+Partial Public Class FuncionesProgramadas
 
     '''<summary>
-    '''Control btnAgregar.
+    '''Control gvFuncionesProgramadas.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents gvFuncionesProgramadas As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''Control gvIdiomas.
+    '''Control txtFecha.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents gvIdiomas As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents txtFecha As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control panelEditar.
+    '''Control txtHoraInicio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents panelEditar As Global.System.Web.UI.WebControls.Panel
+    Protected WithEvents txtHoraInicio As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblTitulo.
+    '''Control txtHoraFin.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblTitulo As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtHoraFin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblNombreIdioma.
+    '''Control txtMonto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblNombreIdioma As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtMonto As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control txtNombreIdiomaPanel.
+    '''Control ddlFormato.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtNombreIdiomaPanel As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents ddlFormato As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control lblVigencia.
+    '''Control ddlIdioma.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblVigencia As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents ddlIdioma As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control chkVigenciaPanel.
+    '''Control ddlPelicula.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents chkVigenciaPanel As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents ddlPelicula As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control btnGuardar.
+    '''Control ddlSala.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents ddlSala As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control btnCancelar.
+    '''Control ddlCine.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnCancelar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents ddlCine As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''Control btnGuardarFuncion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnGuardarFuncion As Global.System.Web.UI.WebControls.Button
 End Class

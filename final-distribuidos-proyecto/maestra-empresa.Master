@@ -224,7 +224,27 @@
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="formatoPedro.aspx">
                         <i class="bi bi-credit-card nav-icon me-2"></i>
+                        <span class="nav-link-text">Formato para pelicula</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="formatoPelicula.aspx">
+                        <i class="bi bi-credit-card nav-icon me-2"></i>
                         <span class="nav-link-text">Formato de pelicula</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="director.aspx">
+                        <i class="bi bi-credit-card nav-icon me-2"></i>
+                        <span class="nav-link-text">Director</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="pelicula.aspx">
+                        <i class="bi bi-credit-card nav-icon me-2"></i>
+                        <span class="nav-link-text">Pelicula</span>
                     </a>
                 </li>
                 <!-- Dropdown Menu -->

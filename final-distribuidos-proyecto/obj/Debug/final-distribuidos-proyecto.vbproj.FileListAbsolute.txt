@@ -63,8 +63,6 @@ C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\o
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.dll
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.xml
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.pdb
-C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaDatos.dll
-C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaNegocio.dll
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\final-distribuidos-proyecto.dll.config
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\final-distribuidos-proyecto.dll
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\final-distribuidos-proyecto.pdb
@@ -132,3 +130,5 @@ D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\ob
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.dll
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.xml
 D:\UNIVERSIDAD\GITHUB\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.pdb
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaDatos.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaNegocio.dll

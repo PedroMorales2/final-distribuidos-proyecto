@@ -11,79 +11,115 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class idioma
+Partial Public Class pelicula
 
     '''<summary>
-    '''Control btnAgregar.
+    '''Control ScriptManager1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
 
     '''<summary>
-    '''Control gvIdiomas.
+    '''Control UpdatePanelGrid.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents gvIdiomas As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents UpdatePanelGrid As Global.System.Web.UI.UpdatePanel
 
     '''<summary>
-    '''Control panelEditar.
+    '''Control gvPelicula.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents panelEditar As Global.System.Web.UI.WebControls.Panel
+    Protected WithEvents gvPelicula As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''Control lblTitulo.
+    '''Control txtNombrePelicula.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblTitulo As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtNombrePelicula As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblNombreIdioma.
+    '''Control chkEstreno.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblNombreIdioma As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents chkEstreno As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''Control txtNombreIdiomaPanel.
+    '''Control txtDuracion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtNombreIdiomaPanel As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtDuracion As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblVigencia.
+    '''Control txtClasificacionEdad.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblVigencia As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtClasificacionEdad As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control chkVigenciaPanel.
+    '''Control txtSinopsis.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents chkVigenciaPanel As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents txtSinopsis As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control filePoster.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents filePoster As Global.System.Web.UI.WebControls.FileUpload
+
+    '''<summary>
+    '''Control chkVigencia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents chkVigencia As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''Control ddlDirectores.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ddlDirectores As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''Control ddlGeneros.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ddlGeneros As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control btnGuardar.
@@ -93,13 +129,4 @@ Partial Public Class idioma
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control btnCancelar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnCancelar As Global.System.Web.UI.WebControls.Button
 End Class
