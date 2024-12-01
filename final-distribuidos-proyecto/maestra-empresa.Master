@@ -14,6 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
     <title>
         <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
     </title>
@@ -173,8 +178,34 @@
                 <i class="bi bi-film nav-icon me-2"></i><span>Cine USAT</span>
             </div>
             <ul class="nav flex-column">
-                <!-- General -->
+                <%--cines--%>
+
                 <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#cineSubMenu" role="button" aria-expanded="false" aria-controls="cineSubMenu">
+                        <i class="bi bi-boxes nav-icon me-2"></i>
+                        <span class="nav-link-text">Cines</span>
+                        <i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <div class="collapse" id="cineSubMenu">
+                        <ul class="nav flex-column ms-3">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="cines.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span>Cines</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="Salas y Butacas.aspx">
+                                    <i class="bi bi-shop nav-icon me-2"></i>
+                                    <span>Salas y butacas</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- General -->
+                <%--<li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="principal.aspx">
                         <i class="bi bi-house-fill nav-icon me-2"></i>
                         <span class="nav-link-text">Inicio</span>
@@ -185,10 +216,10 @@
                         <i class="bi bi-box-arrow-left nav-icon me-2"></i>
                         <span class="nav-link-text">Cerrar sesión</span>
                     </a>
-                </li>
+                </li>--%>
 
                 <!-- Cines y Entradas -->
-                <li class="nav-item">
+                <%--<li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="cines.aspx">
                         <i class="bi bi-easel nav-icon me-2"></i>
                         <span class="nav-link-text">Cines</span>
@@ -206,10 +237,10 @@
                         <i class="bi bi-receipt nav-icon me-2"></i>
                         <span class="nav-link-text">Comprobante</span>
                     </a>
-                </li>
+                </li>--%>
 
                 <!-- Películas -->
-                <li class="nav-item">
+                <%--<li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="pelicula.aspx">
                         <i class="bi bi-credit-card nav-icon me-2"></i>
                         <span class="nav-link-text">Película</span>
@@ -238,14 +269,86 @@
                         <i class="bi bi-credit-card nav-icon me-2"></i>
                         <span class="nav-link-text">Formato de Película</span>
                     </a>
-                </li>
+                </li>--%>
 
                 <!-- Salas y Asientos -->
-                <li class="nav-item">
+                <%--<li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="Salas y butacas.aspx">
                         <i class="bi bi-credit-card nav-icon me-2"></i>
                         <span class="nav-link-text">Salas y Butacas</span>
                     </a>
+                </li>--%>
+
+
+
+                <%--pelicula--%>
+
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#peliculaSubmenu" role="button" aria-expanded="false" aria-controls="peliculaSubmenu">
+                        <i class="bi bi-boxes nav-icon me-2"></i>
+                        <span class="nav-link-text">Pelicula</span>
+                        <i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <div class="collapse" id="peliculaSubmenu">
+                        <ul class="nav flex-column ms-3">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="pelicula.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span class="text-wrap">Pelicula</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="FuncionesProgramadas.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span>Funciones programadas</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="director.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span>Director</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="formatoPelicula.aspx">
+                                    <i class="bi bi-shop nav-icon me-2"></i>
+                                    <span>Formato pelicula</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <%--venta--%>
+
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#ventaSubmenu" role="button" aria-expanded="false" aria-controls="ventaSubmenu">
+                        <i class="bi bi-boxes nav-icon me-2"></i>
+                        <span class="nav-link-text">Venta</span>
+                        <i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <div class="collapse" id="ventaSubmenu">
+                        <ul class="nav flex-column ms-3">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="gestionarEntradas.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span class="text-wrap">Gestionar entradas</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="comprobante.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span>Comprobante</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="ticket.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span>Ticket</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
 
                 <!-- Dulcería -->
@@ -257,6 +360,18 @@
                     </a>
                     <div class="collapse" id="dulceriaSubmenu">
                         <ul class="nav flex-column ms-3">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="entregadulce_comprobante.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span class="text-wrap">Comprobante de entrega dulce</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="ventadulce.aspx">
+                                    <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>
+                                    <span>Venta Dulce</span>
+                                </a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link d-flex align-items-center" href="combodulce.aspx">
                                     <i class="bi bi-box-arrow-in-down nav-icon me-2"></i>

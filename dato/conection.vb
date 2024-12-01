@@ -96,4 +96,46 @@ Public Class conection
             CerrarConexion()
         End Try
     End Function
+
+
+    Public Function EjecutarConsultaScalar(query As String, parametros As List(Of SqlParameter)) As Object
+        Try
+            AbrirConexion()
+            Using cmd As New SqlCommand(query, cn)
+                ' Añadir parámetros si existen
+                If parametros IsNot Nothing Then
+                    cmd.Parameters.AddRange(parametros.ToArray())
+                End If
+
+                ' Ejecutar la consulta y devolver el resultado
+                Return cmd.ExecuteScalar()
+            End Using
+        Catch ex As Exception
+            Throw New Exception("Error al ejecutar la consulta: " & ex.Message)
+        Finally
+            CerrarConexion()
+        End Try
+    End Function
+
+    Public Function listarComando_dos(query As String, Optional parametros As List(Of SqlParameter) = Nothing) As DataTable
+        Dim dt As New DataTable()
+        Try
+            AbrirConexion()
+            Using cmd As New SqlCommand(query, MiConexion)
+                ' Si hay parámetros, se agregan a la consulta
+                If parametros IsNot Nothing Then
+                    cmd.Parameters.AddRange(parametros.ToArray())
+                End If
+                Using da As New SqlDataAdapter(cmd)
+                    da.Fill(dt)
+                End Using
+            End Using
+        Catch ex As Exception
+            Throw New Exception("Error al ejecutar la consulta: " & ex.Message)
+        Finally
+            CerrarConexion()
+        End Try
+        Return dt
+    End Function
+
 End Class

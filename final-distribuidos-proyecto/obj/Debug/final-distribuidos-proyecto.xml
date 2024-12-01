@@ -865,6 +865,150 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:final_distribuidos_proyecto.entradas._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._numeroVenta">
+<summary>
+Control numeroVenta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._buscarVenta">
+<summary>
+Control buscarVenta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._limpiarButton">
+<summary>
+Control limpiarButton.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._cliente">
+<summary>
+Control cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._productosVentaLiteral">
+<summary>
+Control productosVentaLiteral.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._actualizarEstadoCheckbox">
+<summary>
+Control actualizarEstadoCheckbox.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entradas._actualizarEstado">
+<summary>
+Control actualizarEstado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._numeroVenta">
+<summary>
+Control numeroVenta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._buscarVenta">
+<summary>
+Control buscarVenta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._limpiarButton">
+<summary>
+Control limpiarButton.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._cliente">
+<summary>
+Control cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._productosVentaLiteral">
+<summary>
+Control productosVentaLiteral.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._actualizarEstadoCheckbox">
+<summary>
+Control actualizarEstadoCheckbox.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.entregadulce_comprobante._actualizarEstado">
+<summary>
+Control actualizarEstado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:final_distribuidos_proyecto.formato._btnAgregar">
 <summary>
 Control btnAgregar.
@@ -1126,15 +1270,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._btnAgregar">
-<summary>
-Control btnAgregar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:final_distribuidos_proyecto.gestionarEntradas._gvEntradas">
 <summary>
 Control gvEntradas.
@@ -1153,144 +1288,99 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._ddlFuncion">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtSala">
 <summary>
-Control ddlFuncion.
+Control txtSala.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._ddlButaca">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtNombreSala">
 <summary>
-Control ddlButaca.
+Control txtNombreSala.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._ddlSala">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtButaca">
 <summary>
-Control ddlSala.
+Control txtButaca.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._chkEstado">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtFuncion">
 <summary>
-Control chkEstado.
+Control txtFuncion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._btnGuardar">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtPelicula">
 <summary>
-Control btnGuardar.
+Control txtPelicula.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._TextBox1">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtEstreno">
 <summary>
-Control TextBox1.
+Control txtEstreno.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._DropDownList1">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtFecha">
 <summary>
-Control DropDownList1.
+Control txtFecha.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._DropDownList2">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtHoraInicio">
 <summary>
-Control DropDownList2.
+Control txtHoraInicio.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._DropDownList3">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtHoraFin">
 <summary>
-Control DropDownList3.
+Control txtHoraFin.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._CheckBox1">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtMonto">
 <summary>
-Control CheckBox1.
+Control txtMonto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._Button1">
+<member name="F:final_distribuidos_proyecto.gestionarEntradas._txtEstado">
 <summary>
-Control Button1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._TextBox2">
-<summary>
-Control TextBox2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._DropDownList4">
-<summary>
-Control DropDownList4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._DropDownList5">
-<summary>
-Control DropDownList5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._DropDownList6">
-<summary>
-Control DropDownList6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.gestionarEntradas._CheckBox2">
-<summary>
-Control CheckBox2.
+Control txtEstado.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1765,9 +1855,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtIdSala">
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._gvSalas">
 <summary>
-Control txtIdSala.
+Control gvSalas.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1783,9 +1873,45 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNumeroAsientos">
+<summary>
+Control txtNumeroAsientos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:final_distribuidos_proyecto.Salas_y_Butacas._btnAgregarSala">
 <summary>
 Control btnAgregarSala.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtIdSalaV">
+<summary>
+Control txtIdSalaV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreSalaV">
+<summary>
+Control txtNombreSalaV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNumeroAsientosV">
+<summary>
+Control txtNumeroAsientosV.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1819,27 +1945,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._gvSalas">
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._gvButacas">
 <summary>
-Control gvSalas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtIdButaca">
-<summary>
-Control txtIdButaca.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreButaca">
-<summary>
-Control txtNombreButaca.
+Control gvButacas.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1855,9 +1963,81 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNumeroAsientosb">
+<summary>
+Control txtNumeroAsientosb.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreButacaA">
+<summary>
+Control txtNombreButacaA.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreButacaB">
+<summary>
+Control txtNombreButacaB.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreButacaC">
+<summary>
+Control txtNombreButacaC.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreButacaD">
+<summary>
+Control txtNombreButacaD.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:final_distribuidos_proyecto.Salas_y_Butacas._btnAgregarButaca">
 <summary>
 Control btnAgregarButaca.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtIdButacaV">
+<summary>
+Control txtIdButacaV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._ddlSalaV">
+<summary>
+Control ddlSalaV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._txtNombreButacaV">
+<summary>
+Control txtNombreButacaV.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1885,15 +2065,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:final_distribuidos_proyecto.Salas_y_Butacas._btnLimpiarButaca">
 <summary>
 Control btnLimpiarButaca.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.Salas_y_Butacas._gvButacas">
-<summary>
-Control gvButacas.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -2236,6 +2407,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:final_distribuidos_proyecto.ubigeo._btnCancelar">
 <summary>
 Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.ventadulce._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:final_distribuidos_proyecto.ventadulce._phCombodulce">
+<summary>
+Control phCombodulce.
 </summary>
 <remarks>
 Campo generado automáticamente.
