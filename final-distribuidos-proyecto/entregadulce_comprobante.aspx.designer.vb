@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class entradas
+Partial Public Class entregadulce_comprobante
 
     '''<summary>
     '''Control form1.

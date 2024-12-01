@@ -32,15 +32,6 @@ Partial Public Class gestionarEntradas
     Protected WithEvents btnBuscar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control btnAgregar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''Control gvEntradas.
     '''</summary>
     '''<remarks>
@@ -59,146 +50,101 @@ Partial Public Class gestionarEntradas
     Protected WithEvents txtIdEntrada As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddlFuncion.
+    '''Control txtSala.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlFuncion As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtSala As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddlButaca.
+    '''Control txtNombreSala.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlButaca As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtNombreSala As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddlSala.
+    '''Control txtButaca.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlSala As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtButaca As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control chkEstado.
+    '''Control txtFuncion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents chkEstado As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents txtFuncion As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control btnGuardar.
+    '''Control txtPelicula.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents txtPelicula As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control TextBox1.
+    '''Control txtEstreno.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtEstreno As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control DropDownList1.
+    '''Control txtFecha.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtFecha As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control DropDownList2.
+    '''Control txtHoraInicio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents DropDownList2 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtHoraInicio As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control DropDownList3.
+    '''Control txtHoraFin.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents DropDownList3 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtHoraFin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control CheckBox1.
+    '''Control txtMonto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents CheckBox1 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents txtMonto As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control Button1.
+    '''Control txtEstado.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control TextBox2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control DropDownList4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents DropDownList4 As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control DropDownList5.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents DropDownList5 As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control DropDownList6.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents DropDownList6 As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control CheckBox2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents CheckBox2 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents txtEstado As Global.System.Web.UI.WebControls.TextBox
 End Class
